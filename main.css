@@ -28,10 +28,7 @@ body {
 }
 
 .center {
-    margin: auto;
     margin-top: inherit;
-    /* width: 50%; */
-    padding: 10px;
     margin: auto;
     width: 60%;
     padding: 10px;
@@ -162,7 +159,6 @@ footer {
     @media screen and (max-width: 770px) {
         .first-div {
             text-align: center;
-            /* padding-right: 100px; */
         }
         
             .main-title {
@@ -174,8 +170,12 @@ footer {
             display: inline;
         }
 
+        .center {
+            width: 100%
+        }
+        
         .form-div {
-            padding: 30px;
+            padding: 20px;
         }
         .invalid-feedback {
             font-size: 10px;
